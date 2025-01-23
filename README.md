@@ -1,16 +1,14 @@
 # Crop and Fertilizer Recommendation System
 
-This project leverages machine learning techniques to build a **Crop and Fertilizer Recommendation System**. The system is designed to help farmers and agricultural professionals make data-driven decisions about which crops to grow and the fertilizers to use based on environmental and soil conditions.
+This repository contains a **Crop and Fertilizer Recommendation System** project that leverages data analysis and visualization to understand agricultural data and provides insights for better farming practices.
 
 ---
 
 ## Key Features
 
-- **Crop Recommendation**: Recommends the best crop to grow based on soil parameters and environmental factors.
-- **Fertilizer Recommendation**: Suggests suitable fertilizers to optimize crop yield.
-- **Data Analysis**: Provides detailed insights into the data, including statistical summaries and visualizations.
-- **Interactive Visualizations**: Offers visually appealing plots for better understanding.
-- **Machine Learning**: Implements robust algorithms for accurate predictions.
+- **Data Analysis**: In-depth exploration of crop and fertilizer datasets to extract meaningful insights.
+- **Data Visualization**: Generation of attractive plots to aid understanding of trends and relationships in the data.
+- **EDA (Exploratory Data Analysis)**: Comprehensive exploratory steps to understand data structure, quality, and patterns.
 
 ---
 
@@ -20,11 +18,7 @@ This project leverages machine learning techniques to build a **Crop and Fertili
 2. [Technologies Used](#technologies-used)
 3. [Datasets](#datasets)
 4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-5. [Machine Learning Models](#machine-learning-models)
-6. [Project Workflow](#project-workflow)
-7. [Results](#results)
-8. [Contributing](#contributing)
-9. [License](#license)
+5. [Project Workflow](#project-workflow)
 
 ---
 
@@ -33,23 +27,22 @@ This project leverages machine learning techniques to build a **Crop and Fertili
 ### Prerequisites
 
 - Python 3.8+
-- Jupyter Notebook/Google Colab
+- Jupyter Notebook
 - Libraries:
   - NumPy
   - Pandas
   - Matplotlib
   - Seaborn
-  - Scikit-learn
 
 ### Steps
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/Danushiya/Week-1.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd repo-name
+   cd Week-1
    ```
 3. Install dependencies:
    ```bash
@@ -65,8 +58,7 @@ This project leverages machine learning techniques to build a **Crop and Fertili
 ## Technologies Used
 
 - **Programming Language**: Python
-- **Data Visualization**: Matplotlib, Seaborn
-- **Machine Learning**: Scikit-learn
+- **Visualization Tools**: Matplotlib, Seaborn
 - **Data Manipulation**: Pandas, NumPy
 
 ---
@@ -74,74 +66,43 @@ This project leverages machine learning techniques to build a **Crop and Fertili
 ## Datasets
 
 1. **Crop Recommendation Dataset**:
-   - File: `Crop_Recommendation.csv`
-   - Contains soil and environmental parameters (e.g., nitrogen, phosphorus, potassium, temperature, humidity, etc.) and the target crop.
+   - Provides information about various soil and environmental parameters (e.g., nitrogen, phosphorus, potassium, temperature, humidity, etc.) and their corresponding crops.
 
 2. **Fertilizer Prediction Dataset**:
-   - File: `Fertilizer_Prediction.csv`
-   - Includes soil type, crop type, and suggested fertilizers.
+   - Contains details about soil types, crop types, and suitable fertilizers for better yield.
 
 ---
 
 ## Exploratory Data Analysis (EDA)
 
-Key steps include:
-- Checking for missing and duplicate values
-- Visualizing data distributions
-- Generating correlation heatmaps
-- Identifying patterns and trends
+The uploaded Jupyter Notebook includes:
 
----
-
-## Machine Learning Models
-
-### Crop Recommendation
-- **Algorithm**: Random Forest Classifier
-- **Accuracy**: Achieved XX% on test data
-
-### Fertilizer Recommendation
-- **Algorithm**: Decision Tree Classifier
-- **Accuracy**: Achieved XX% on test data
+- **Basic Exploration**:
+  - Viewing the first and last few rows of the dataset.
+  - Checking dataset shape, column details, and data types.
+  - Identifying missing and duplicate values.
+- **Statistical Analysis**:
+  - Summary statistics of numerical features.
+  - Distribution of target features.
+- **Visualizations**:
+  - Pair plots for relationships between features.
+  - Heatmaps for correlations.
+  - Distribution plots and count plots for categorical variables.
 
 ---
 
 ## Project Workflow
 
-1. **Data Collection**: Import and load datasets.
-2. **Data Preprocessing**: Handle missing values, encode categorical data, and normalize numeric values.
-3. **EDA**: Analyze data through statistical summaries and visualizations.
-4. **Model Building**: Train and evaluate machine learning models.
-5. **Results and Insights**: Provide actionable recommendations for users.
+1. **Dataset Loading**:
+   - Load the `Crop_Recommendation.csv` and `Fertilizer_Prediction.csv` datasets.
 
----
+2. **EDA**:
+   - Perform data cleaning, missing value handling, and visualization.
 
-## Results
+3. **Insights**:
+   - Analyze trends and relationships in the data to derive actionable insights.
 
-- The system accurately predicts the most suitable crop based on the given inputs.
-- It provides precise fertilizer recommendations to enhance crop yield.
-- Visualizations and analyses offer valuable insights into agricultural data.
-
----
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature/bugfix.
-3. Commit your changes.
-4. Submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-- The datasets used in this project are sourced from reliable open data platforms.
-- Special thanks to contributors and collaborators for their support.
+4. **Visualization**:
+   - Generate visually appealing plots to communicate findings effectively.
 
 ---
