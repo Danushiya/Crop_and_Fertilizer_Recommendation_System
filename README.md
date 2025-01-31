@@ -1,14 +1,20 @@
 # Crop and Fertilizer Recommendation System
 
-This repository contains a **Crop and Fertilizer Recommendation System** project that leverages data analysis and visualization to understand agricultural data and provides insights for better farming practices.
+This repository contains the **Crop and Fertilizer Recommendation System** project, which involves data analysis, visualization, and machine learning techniques to provide insights into agricultural data. The project is divided into **Week 1** and **Week 2** tasks, focusing on **Exploratory Data Analysis (EDA)** and **Feature Engineering** for better predictions.
 
 ---
 
 ## Key Features
 
-- **Data Analysis**: In-depth exploration of crop and fertilizer datasets to extract meaningful insights.
-- **Data Visualization**: Generation of attractive plots to aid understanding of trends and relationships in the data.
-- **EDA (Exploratory Data Analysis)**: Comprehensive exploratory steps to understand data structure, quality, and patterns.
+- **Week 1: Basic Data Exploration**
+  - Understanding dataset structure, missing values, and data types.
+  - Generating summary statistics and visualizations.
+  - Initial insights into crop and fertilizer data.
+
+- **Week 2: Advanced Data Analysis & Feature Engineering**
+  - Visualizing feature distributions and relationships.
+  - Identifying outliers using boxplots.
+  - Performing correlation analysis and encoding categorical features.
 
 ---
 
@@ -17,8 +23,9 @@ This repository contains a **Crop and Fertilizer Recommendation System** project
 1. [Installation](#installation)
 2. [Technologies Used](#technologies-used)
 3. [Datasets](#datasets)
-4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-5. [Project Workflow](#project-workflow)
+4. [Week 1: Exploratory Data Analysis (EDA)](#week-1-exploratory-data-analysis-eda)
+5. [Week 2: Advanced Data Analysis & Feature Engineering](#week-2-advanced-data-analysis--feature-engineering)
+6. [Project Workflow](#project-workflow)
 
 ---
 
@@ -38,11 +45,11 @@ This repository contains a **Crop and Fertilizer Recommendation System** project
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Danushiya/Week-1.git
+   git clone https://github.com/Danushiya/Crop_and_Fertilizer_Recommendation_System.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Week-1
+   cd Crop_and_Fertilizer_Recommendation_System
    ```
 3. Install dependencies:
    ```bash
@@ -73,10 +80,9 @@ This repository contains a **Crop and Fertilizer Recommendation System** project
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## Week 1: Exploratory Data Analysis (EDA)
 
-The uploaded Jupyter Notebook includes:
-
+The Week 1 task focuses on:
 - **Basic Exploration**:
   - Viewing the first and last few rows of the dataset.
   - Checking dataset shape, column details, and data types.
@@ -91,16 +97,32 @@ The uploaded Jupyter Notebook includes:
 
 ---
 
+## Week 2: Advanced Data Analysis & Feature Engineering
+
+The Week 2 task includes:
+- **Feature Distributions**:
+  - Histograms for each numerical feature.
+- **Feature vs Target Relationships**:
+  - Scatter plots between features and crop labels.
+- **Outlier Detection**:
+  - Boxplots to identify extreme values.
+- **Correlation Analysis**:
+  - Heatmaps to analyze feature relationships.
+- **Encoding Categorical Features**:
+  - Mapping crop labels to numerical values for machine learning.
+
+---
+
 ## Project Workflow
 
 1. **Dataset Loading**:
    - Load the `Crop_Recommendation.csv` and `Fertilizer_Prediction.csv` datasets.
 
-2. **EDA**:
+2. **Week 1 - EDA**:
    - Perform data cleaning, missing value handling, and visualization.
 
-3. **Insights**:
-   - Analyze trends and relationships in the data to derive actionable insights.
+3. **Week 2 - Feature Engineering**:
+   - Analyze trends, detect outliers, and apply feature transformations.
 
 4. **Visualization**:
    - Generate visually appealing plots to communicate findings effectively.
