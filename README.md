@@ -1,6 +1,6 @@
 # Crop and Fertilizer Recommendation System
 
-This repository contains the **Crop and Fertilizer Recommendation System** project, which involves data analysis, visualization, and machine learning techniques to provide insights into agricultural data. The project is divided into **Week 1** and **Week 2** tasks, focusing on **Exploratory Data Analysis (EDA)** and **Feature Engineering** for better predictions.
+This repository contains the **Crop and Fertilizer Recommendation System** project, which involves data analysis, visualization, feature engineering, and machine learning techniques to provide insights into agricultural data. The project is divided into **Week 1, Week 2, and Week 3** tasks, focusing on **Exploratory Data Analysis (EDA), Feature Engineering, and Model Preparation** for better predictions.
 
 ---
 
@@ -16,6 +16,12 @@ This repository contains the **Crop and Fertilizer Recommendation System** proje
   - Identifying outliers using boxplots.
   - Performing correlation analysis and encoding categorical features.
 
+- **Week 3: Train-Test Split, Feature Scaling & Encoding**
+  - Splitting data into training and testing sets.
+  - Applying StandardScaler for feature scaling.
+  - Encoding categorical target variables.
+  - Preparing the dataset for machine learning models.
+
 ---
 
 ## Table of Contents
@@ -25,7 +31,8 @@ This repository contains the **Crop and Fertilizer Recommendation System** proje
 3. [Datasets](#datasets)
 4. [Week 1: Exploratory Data Analysis (EDA)](#week-1-exploratory-data-analysis-eda)
 5. [Week 2: Advanced Data Analysis & Feature Engineering](#week-2-advanced-data-analysis--feature-engineering)
-6. [Project Workflow](#project-workflow)
+6. [Week 3: Train-Test Split, Feature Scaling & Encoding](#week-3-train-test-split-feature-scaling--encoding)
+7. [Project Workflow](#project-workflow)
 
 ---
 
@@ -40,6 +47,7 @@ This repository contains the **Crop and Fertilizer Recommendation System** proje
   - Pandas
   - Matplotlib
   - Seaborn
+  - Scikit-learn
 
 ### Steps
 
@@ -67,6 +75,7 @@ This repository contains the **Crop and Fertilizer Recommendation System** proje
 - **Programming Language**: Python
 - **Visualization Tools**: Matplotlib, Seaborn
 - **Data Manipulation**: Pandas, NumPy
+- **Machine Learning**: Scikit-learn
 
 ---
 
@@ -113,6 +122,20 @@ The Week 2 task includes:
 
 ---
 
+## Week 3: Train-Test Split, Feature Scaling & Encoding
+
+The Week 3 task includes:
+- **Train-Test Split**:
+  - Splitting dataset into 80% training and 20% testing sets.
+- **Feature Scaling**:
+  - Applying StandardScaler to normalize feature values.
+- **Encoding Categorical Variables**:
+  - Using Label Encoding or custom mapping for categorical features.
+- **Dataset Preparation**:
+  - Ensuring data is preprocessed and ready for model training.
+
+---
+
 ## Project Workflow
 
 1. **Dataset Loading**:
@@ -124,7 +147,13 @@ The Week 2 task includes:
 3. **Week 2 - Feature Engineering**:
    - Analyze trends, detect outliers, and apply feature transformations.
 
-4. **Visualization**:
+4. **Week 3 - Train-Test Split, Scaling & Encoding**:
+   - Split the dataset into training and testing sets.
+   - Normalize numerical features to improve model performance.
+   - Encode categorical variables for machine learning.
+
+5. **Visualization**:
    - Generate visually appealing plots to communicate findings effectively.
 
 ---
+
