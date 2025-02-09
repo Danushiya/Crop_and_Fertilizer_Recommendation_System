@@ -1,57 +1,23 @@
-# Crop and Fertilizer Recommendation System
+# Crop Fertilizer Analysis
 
-This repository contains the **Crop and Fertilizer Recommendation System** project, which involves data analysis, visualization, feature engineering, and machine learning techniques to provide insights into agricultural data. The project is divided into **Week 1, Week 2, and Week 3** tasks, focusing on **Exploratory Data Analysis (EDA), Feature Engineering, and Model Preparation** for better predictions.
+## Overview
+This project analyzes crop and fertilizer data to provide insights and recommendations for optimal farming practices. It utilizes machine learning techniques to predict suitable fertilizers based on soil conditions, crop type, and environmental factors.
 
----
+## Features
+- **Crop Recommendation System**: Predicts the best crop to grow based on soil and environmental parameters.
+- **Fertilizer Recommendation System**: Suggests the optimal fertilizer based on soil nutrients and crop type.
+- **Data Visualization**: Provides insights into soil health and fertilizer efficiency.
+- **Machine Learning Models**: Implemented using Decision Trees and other classification algorithms.
 
-## Key Features
-
-- **Week 1: Basic Data Exploration**
-  - Understanding dataset structure, missing values, and data types.
-  - Generating summary statistics and visualizations.
-  - Initial insights into crop and fertilizer data.
-
-- **Week 2: Advanced Data Analysis & Feature Engineering**
-  - Visualizing feature distributions and relationships.
-  - Identifying outliers using boxplots.
-  - Performing correlation analysis and encoding categorical features.
-
-- **Week 3: Train-Test Split, Feature Scaling & Encoding**
-  - Splitting data into training and testing sets.
-  - Applying StandardScaler for feature scaling.
-  - Encoding categorical target variables.
-  - Preparing the dataset for machine learning models.
-
----
-
-## Table of Contents
-
-1. [Installation](#installation)
-2. [Technologies Used](#technologies-used)
-3. [Datasets](#datasets)
-4. [Week 1: Exploratory Data Analysis (EDA)](#week-1-exploratory-data-analysis-eda)
-5. [Week 2: Advanced Data Analysis & Feature Engineering](#week-2-advanced-data-analysis--feature-engineering)
-6. [Week 3: Train-Test Split, Feature Scaling & Encoding](#week-3-train-test-split-feature-scaling--encoding)
-7. [Project Workflow](#project-workflow)
-
----
+## Tools and Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
+- Jupyter Notebook
 
 ## Installation
-
-### Prerequisites
-
-- Python 3.8+
-- Jupyter Notebook
-- Libraries:
-  - NumPy
-  - Pandas
-  - Matplotlib
-  - Seaborn
-  - Scikit-learn
-
-### Steps
-
-1. Clone the repository:
+1. Clone this repository:
    ```bash
    git clone https://github.com/Danushiya/Crop_and_Fertilizer_Recommendation_System.git
    ```
@@ -63,97 +29,35 @@ This repository contains the **Crop and Fertilizer Recommendation System** proje
    ```bash
    pip install -r requirements.txt
    ```
-4. Open the Jupyter Notebook:
+4. Run the Jupyter Notebook or Python script:
    ```bash
    jupyter notebook
    ```
 
----
+## Usage
+- Open the Jupyter Notebook and run each cell sequentially.
+- Input environmental parameters to get crop and fertilizer recommendations.
 
-## Technologies Used
+## Dataset
+The dataset contains the following attributes:
+- Temperature
+- Humidity
+- Moisture
+- Soil Type
+- Crop Type
+- Nitrogen (N), Phosphorus (P), Potassium (K) levels
+- Fertilizer Name
 
-- **Programming Language**: Python
-- **Visualization Tools**: Matplotlib, Seaborn
-- **Data Manipulation**: Pandas, NumPy
-- **Machine Learning**: Scikit-learn
+## Improvisations Done
+- Improved data preprocessing techniques for better model accuracy.
+- Optimized feature selection for enhanced prediction performance.
+- Implemented advanced visualization for better insights.
+- Added additional parameters for more precise fertilizer recommendations.
 
----
-
-## Datasets
-
-1. **Crop Recommendation Dataset**:
-   - Provides information about various soil and environmental parameters (e.g., nitrogen, phosphorus, potassium, temperature, humidity, etc.) and their corresponding crops.
-
-2. **Fertilizer Prediction Dataset**:
-   - Contains details about soil types, crop types, and suitable fertilizers for better yield.
-
----
-
-## Week 1: Exploratory Data Analysis (EDA)
-
-The Week 1 task focuses on:
-- **Basic Exploration**:
-  - Viewing the first and last few rows of the dataset.
-  - Checking dataset shape, column details, and data types.
-  - Identifying missing and duplicate values.
-- **Statistical Analysis**:
-  - Summary statistics of numerical features.
-  - Distribution of target features.
-- **Visualizations**:
-  - Pair plots for relationships between features.
-  - Heatmaps for correlations.
-  - Distribution plots and count plots for categorical variables.
+## Conclusion
+This project aims to assist farmers and agricultural experts in making informed decisions about crop selection and fertilizer application. By leveraging data science and machine learning, it provides data-driven recommendations for sustainable farming practices.
 
 ---
+Developed by Danushiya
 
-## Week 2: Advanced Data Analysis & Feature Engineering
-
-The Week 2 task includes:
-- **Feature Distributions**:
-  - Histograms for each numerical feature.
-- **Feature vs Target Relationships**:
-  - Scatter plots between features and crop labels.
-- **Outlier Detection**:
-  - Boxplots to identify extreme values.
-- **Correlation Analysis**:
-  - Heatmaps to analyze feature relationships.
-- **Encoding Categorical Features**:
-  - Mapping crop labels to numerical values for machine learning.
-
----
-
-## Week 3: Train-Test Split, Feature Scaling & Encoding
-
-The Week 3 task includes:
-- **Train-Test Split**:
-  - Splitting dataset into 80% training and 20% testing sets.
-- **Feature Scaling**:
-  - Applying StandardScaler to normalize feature values.
-- **Encoding Categorical Variables**:
-  - Using Label Encoding or custom mapping for categorical features.
-- **Dataset Preparation**:
-  - Ensuring data is preprocessed and ready for model training.
-
----
-
-## Project Workflow
-
-1. **Dataset Loading**:
-   - Load the `Crop_Recommendation.csv` and `Fertilizer_Prediction.csv` datasets.
-
-2. **Week 1 - EDA**:
-   - Perform data cleaning, missing value handling, and visualization.
-
-3. **Week 2 - Feature Engineering**:
-   - Analyze trends, detect outliers, and apply feature transformations.
-
-4. **Week 3 - Train-Test Split, Scaling & Encoding**:
-   - Split the dataset into training and testing sets.
-   - Normalize numerical features to improve model performance.
-   - Encode categorical variables for machine learning.
-
-5. **Visualization**:
-   - Generate visually appealing plots to communicate findings effectively.
-
----
 
